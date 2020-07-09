@@ -1,0 +1,636 @@
+* {
+    font-family: calibri;
+    text-decoration: none;
+}
+
+body {
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.login-page {
+    background-image: url('../image/fundo_inicial.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pagPrincipal-page {
+    background-image: url('../image/fundo_inicial_b.png');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cxformLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+}
+
+.cxformCad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+}
+
+.displayLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px -30px 0px 0px;
+}
+
+.displayLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-size: 15px;
+}
+
+.login p {
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    margin: 10px 0px -5px -95px;
+}
+
+.login a {
+    color: red;
+    text-shadow: 1.2px 1.2px 1.5px #1f1e1ea6;
+    margin: -30px 0px 0px -95px;
+    font-weight: bold;
+}
+
+.login a:hover {
+    text-decoration: none;
+    color: #ff3232;
+    text-shadow: 1px 1px 1px #b9b9b9a6;
+}
+
+.esqSenha {
+    margin: 0px 0px 0px 0px;
+}
+
+.esqSenha a {
+    margin: 0px 0px 0px -95px;
+    text-shadow: 1px 1px 1.5px #686868b2;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.esqSenha a:hover {
+    text-decoration: none;
+    color: #8c26ec;
+}
+
+.displayLogin label {
+    color: white;
+    margin-top: 30px;
+    margin-left: -90px;
+    position: fixed;
+}
+
+.displayLogin input[type="text"],
+.displayLogin input[type="password"],
+.displayLogin input[type="email"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 10px;
+    outline: 0;
+    height: 40px;
+    width: 250px;
+    text-align: left;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 20px;
+    margin-left: -100px;
+    background-color: #383838;
+    padding-left: 10px;
+}
+
+.displayLogin input[type="button"],
+[type="reset"],
+[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 5px 2px #2e2e2e;
+    transition: 0.01s;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px rgb(29, 29, 29);
+    background-image: linear-gradient(#818181, #383838);
+    font-weight: bold;
+    outline: 0;
+}
+
+.displayLogin input[type="button"]:hover,
+[type="reset"]:hover,
+[type="submit"]:hover {
+    animation: letterMove;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    transition: 0.01s;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(29, 29, 29);
+    background-image: linear-gradient(#7e7e7e, #1b1b1b);
+    width: 105px;
+    height: 32px;
+    font-size: 17px;
+    margin-bottom: -1px;
+}
+
+.displayLogin input[type="button"]:active,
+[type="reset"]:active,
+[type="submit"]:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    transition: 0.01s;
+    outline: none;
+}
+
+.cadTituloSecao {
+    margin: -28px 0px 0px 2px;
+}
+
+.cadDadosSecao p {
+    margin: 0px 0px 0px 10px;
+    font-size: 12px;
+}
+
+.cadTituloSecao img {
+    width: 595px;
+    height: 100px;
+}
+
+.cadDadosSecao {
+    display: flex;
+    justify-content: left;
+    align-items: initial;
+    background-color: #f8f8f8;
+    border: 2px solid #646464;
+    margin: 0px 0px 0px -100px;
+    padding: 5px 0px 0px 0px;
+    opacity: 95%;
+    border-radius: 10px;
+    width: 600px;
+    height: 540px;
+}
+
+.nomeCad {
+    color: black;
+}
+
+.nomeCad input[type="text"],
+.nomeCad input[type="password"],
+.nomeCad input[type="email"] {
+    color: #2e2e2e;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: 0;
+    height: 30px;
+    width: 350px;
+    background-color: #ffffff;
+    margin: -5px 0px 5px 20px;
+    border: 1px solid #999999;
+    box-shadow: 1px 2px 2px #5f5f5f;
+    padding: 0px 0px 0px 10px;
+}
+
+.docCad {
+    color: black;
+}
+
+.docCad input[type="text"],
+.docCad input[type="password"],
+.docCad input[type="email"] {
+    color: #2e2e2e;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: 0;
+    height: 30px;
+    width: 245px;
+    background-color: #ffffff;
+    margin: -5px 0px 5px 20px;
+    border: 1px solid #999999;
+    box-shadow: 1px 2px 2px #5f5f5f;
+    padding: 0px 0px 0px 10px;
+}
+
+.cadDadosSecao label {
+    color: #2e2e2e;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    margin: 0px 0px 0px 26px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.dnCad {
+    color: black;
+}
+
+.dnCad input[type="text"],
+.dnCad input[type="password"],
+.dnCad input[type="email"] {
+    color: #2e2e2e;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: 0;
+    height: 30px;
+    width: 160px;
+    background-color: #ffffff;
+    margin: -5px 0px 5px 0px;
+    border: 1px solid #999999;
+    box-shadow: 1px 2px 2px #5f5f5f;
+    padding: 0px 0px 0px 10px;
+}
+
+.dnCad label {
+    margin: 0px 0px 0px 6px;
+}
+
+.secaoCad {
+    border-bottom: 3px solid #a09d9d50;
+    margin-bottom: -10px;
+}
+
+.rodapeCad {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    margin: -10px 0px 0px 0px;
+}
+
+.rodapeCad input[type="checkbox"] {
+    margin: 0px 0px 0px 50px;
+    width: 15px;
+    height: 15px;
+}
+
+.cadDadosSecao input[type="button"],
+[type="reset"],
+[type="submit"] {
+    width: 85px;
+    height: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 5px 2px #2e2e2e;
+    transition: 0.01s;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px rgb(29, 29, 29);
+    background-image: linear-gradient(#818181, #383838);
+    font-weight: bold;
+    outline: 0;
+    margin-left: 5px;
+}
+
+.cadDadosSecao input[type="button"]:hover,
+[type="reset"]:hover,
+[type="submit"]:hover {
+    animation: letterMove;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    transition: 0.01s;
+    color: white;
+    text-shadow: 1px 2px 2px rgb(75, 74, 74);
+    background-image: linear-gradient(#474747, #918f8f);
+    box-shadow: 1px 5px 2px #696969;
+    width: 85px;
+    height: 31px;
+    font-size: 14px;
+}
+
+.cadDadosSecao input[type="button"]:active,
+[type="reset"]:active,
+[type="submit"]:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    transition: 0.01s;
+    outline: none;
+}
+
+.imovNomeCad input[type="text"],
+.imovNomeCad input[type="password"],
+.imovNomeCad input[type="email"] {
+    color: #2e2e2e;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: 0;
+    height: 30px;
+    width: 200px;
+    background-color: #ffffff;
+    margin: -5px 0px 5px 20px;
+    border: 1px solid #999999;
+    box-shadow: 1px 2px 2px #5f5f5f;
+    padding: 0px 0px 0px 10px;
+}
+
+.imovNumCad input[type="text"],
+.imovNumCad input[type="password"],
+.imovNumCad input[type="email"] {
+    color: #2e2e2e;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: 0;
+    height: 30px;
+    width: 100px;
+    background-color: #ffffff;
+    margin: -5px 0px 5px 20px;
+    border: 1px solid #999999;
+    box-shadow: 1px 2px 2px #5f5f5f;
+    padding: 0px 0px 0px 10px;
+}
+
+
+/*menu lateral*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    width: 320px;
+}
+
+.sidenav a {
+    padding: 15px 15px 15px 15px;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sidenav img {
+    margin: -10px 17px -5px -12px;
+}
+
+.user:hover {
+    background-image: url("../image/user_white.png");
+    width: 30px;
+    height: 30px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+span {
+    color: #999999;
+    margin: 0px 0px 0px 10px;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #000000;
+    height: 50px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background-color: #000000;
+    height: 30px;
+    width: 100vw;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px 0px 0px;
+    font-size: 12px;
+}
+
+footer span {
+    margin: 0px 0px 0px 0px;
+    font-size: 13px;
+    color: #999999;
+}
+
+header p {
+    color: #999999;
+    margin: 0px 0px 0px -190px;
+    font-size: 30px;
+}
+
+.menuLateral-animate-left {
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+.menuLateral-display-topright {
+    position: absolute;
+    left: 0;
+    top: 0;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.menuLateral {
+    z-index: 3;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.icoBright img:hover {
+    filter: brightness(300%);
+}
+
+.paginaAtual img {
+    filter: brightness(300%);
+}
+
+.paginaAtual a {
+    color: white;
+}
+
+@media (max-width: 991.98px) {
+    .displayLogin {
+        margin: 20px -55px 0px 40px;
+    }
+    .login-page {
+        background: url('../image/fundo_inicial_mobile.png') no-repeat center top fixed;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin: auto;
+    }
+    .displayLogin input[type="button"],
+    [type="reset"],
+    [type="submit"] {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 40px;
+        font-size: 17px;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 1px 5px 2px #2e2e2e;
+        transition: 0.01s;
+        color: #ffffff;
+        text-shadow: 2px 2px 1px rgb(29, 29, 29);
+        background-image: linear-gradient(#818181, #383838);
+        font-weight: bold;
+        outline: 0;
+    }
+    .displayLogin input[type="button"]:hover,
+    [type="reset"]:hover,
+    [type="submit"]:hover {
+        animation: letterMove;
+        animation-duration: 0.75s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        transition: 0.01s;
+        color: white;
+        text-shadow: 2px 2px 1px rgb(29, 29, 29);
+        background-image: linear-gradient(#7e7e7e, #1b1b1b);
+        width: 145px;
+        height: 42px;
+        font-size: 17px;
+        margin-bottom: -1px;
+    }
+    .displayLogin input[type="button"]:active,
+    [type="reset"]:active,
+    [type="submit"]:active {
+        position: relative;
+        top: 5px;
+        box-shadow: none;
+        transition: 0.01s;
+        outline: none;
+    }
+    .pagPrincipal-page {
+        background: url('../image/fundo_inicial_mobile2.png') no-repeat center top fixed;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin: auto;
+    }
+    .cadDadosSecao {
+        margin: 0px -370px 0px 0px;
+    }
+    .cadDadosSecao img {
+        width: 10%;
+        height: 10%;
+        margin: 0px 0px 0px 0px;
+    }
+    .cadDadosSecao input[type="text"],
+    .cadDadosSecao input[type="password"],
+    .cadDadosSecao input[type="email"] {
+        width: 37%;
+        margin: 0px 0px 0px 3px;
+    }
+    .cadDadosSecao label {
+        margin: 0px 0px 0px 9px;
+        padding: 0px 0px -40px -5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .displayLogin {
+        margin: 0px -20px 0px 40px;
+    }
+}

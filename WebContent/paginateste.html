@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página Teste</title>
+</head>
+
+<body>
+	<h1>Relatorio Sindico</h1>
+	<br>
+	<br>
+	<form method="POST"
+		action="frontcontroller/emitirrelatoriocontaareceber">
+		<label>Data Inicial: </label> <input type="date" name="datainicial"
+			id="datainicial"> <label>Data final: </label> <input
+			type="date" name="datafinal" id="datafinal"> <input
+			type="submit" value="Gerar Relatório Contas a Receber">
+	</form>
+	<br>
+	<br>
+	<form method="POST" action="frontcontroller/emitirrelatoriopessoa">
+		<input type="submit" value="Gerar Relatório Pessoas">
+	</form>
+	<br>
+	<br>
+	<form method="POST"
+		action="frontcontroller/emitirrelatoriocontarecebidaarrecadacaoperiodo">
+		<label>Data Inicial: </label> <input type="date" name="datainicial"
+			id="datainicial"> <label>Data final: </label> <input
+			type="date" name="datafinal" id="datafinal"> <input
+			type="submit"
+			value="Gerar Relatório de Contas Recebidas ou Arrecadação por Período">
+	</form>
+	<br>
+	<br>
+	<form method="POST" action="frontcontroller/emitirrelatorioimovel">
+		<input type="submit" value="Gerar Relatório Imovel">
+	</form>
+	<br>
+	<br>
+	<form method="POST" action="frontcontroller/emitirrelatorioinformativo">
+		<label>Data Inicial: </label> <input type="date" name="datainicial"
+			id="datainicial"> <label>Data final: </label> <input
+			type="date" name="datafinal" id="datafinal"> <input
+			type="submit" value="Gerar Relatório de Informativo">
+	</form>
+	<br>
+	<br>
+	<h1>Relatorio Condomino</h1>
+	<br>
+	<br>
+	<form method="POST"
+		action="frontcontroller/emitirrelatoriocontapagaeavencer">
+		<label>ID Condomino/Pessoa: </label> <input type="number" name="id"
+			id="id"> <input type="submit" value="Consultar Boletos">
+	</form>
+	<br>
+	<br>
+	<form method="POST"
+		action="frontcontroller/emitirrelatorioinformativocondomino">
+		<label>ID Condomino/Pessoa: </label> <input type="number" name="id"
+			id="id"> <input type="submit" value="Consultar Informativos">
+	</form>
+	<br>
+	<br>
+	<h1>Metodos do Informativo - Sindico</h1>
+	<br>
+	<br>
+	<h2>Criar</h2>
+	<form method="POST" action="frontcontroller/cadastrarinformativo">
+		<label>Assunto: </label> <input type="text" name="assunto"
+			id="assunto"> <label>Conteúdo: </label> <input type="text"
+			name="conteudo" id="conteudo"> <label>Data Info: </label> <input
+			type="date" name="datainfo" id="datainfo"> <input
+			type="submit" value="Cadastrar Informativo">
+	</form>
+	<br>
+	<br>
+	<h2>Editar</h2>
+	<form method="POST" action="frontcontroller/editarinformativo">
+		<label>ID info: </label> <input type="number" name="id" id="id"><label>Assunto:
+		</label> <input type="text" name="assunto" id="assunto"> <label>Conteúdo:
+		</label> <input type="text" name="conteudo" id="conteudo"> <label>Data
+			Info: </label> <input type="date" name="datainfo" id="datainfo"> <input
+			type="submit" value="Cadastrar Informativo">
+	</form>
+	<br>
+	<br>
+	<h2>Excluir informativo</h2>
+	<form method="POST" action="frontcontroller/excluirinformativo">
+		<label>ID info: </label> <input type="number" name="id" id="id">
+		<input type="submit" value="Excluir informativo">
+	</form>
+	<br>
+	<br>
+	<h2>Cancelar/Excluir envio informativo para TODOS</h2>
+	<form method="POST"
+		action="frontcontroller/cancelarenvioinformativoparatodos">
+		<label>ID info: </label> <input type="number" name="id" id="id">
+		<input type="submit" value="Cancelar/Excluir envio">
+	</form>
+	<br>
+	<br>
+	<h2>Cancelar/Excluir envio informativo para UM</h2>
+	<form method="POST"
+		action="frontcontroller/cancelarenvioinformativoparaum">
+		<label>Num Bloco: </label> <input type="number" name="id_bloco"
+			id="id"> <label>Num Apto: </label> <input type="number"
+			name="id_apto" id="id"> <label>ID info: </label> <input
+			type="number" name="id_info" id="id_info"> <input
+			type="submit" value="Cancelar/Excluir envio">
+	</form>
+	<br>
+	<br>
+	<h2>Enviar informativo para TODOS</h2>
+	<form method="POST" action="frontcontroller/enviarinformativoparatodos">
+		<label>ID info: </label> <input type="number" name="info" id="info">
+		<input type="submit" value="Enviar info">
+	</form>
+	<br>
+	<br>
+	<h2>Enviar informativo para UM</h2>
+	<form method="POST" action="frontcontroller/enviarinformativoparaum">
+		<label>Num Bloco: </label> <input type="number" name="id_bloco"
+			id="id"> <label>Num Apto: </label> <input type="number"
+			name="id_apto" id="id"> <label>ID info: </label> <input
+			type="number" name="id_info" id="id_info"> <input
+			type="submit" value="Enviar info">
+	</form>
+	<br>
+	<br>
+	<h2>Listar informativos</h2>
+	<form method="POST" action="frontcontroller/listarinformativo">
+		<input type="submit" value="Listar Informativos">
+	</form>
+	<br>
+	<br>
+	<h1>Metodos do Imovel - Sindico</h1>
+	<br>
+	<br>
+	<h2>Cadastrar Imovel</h2>
+	<form method="POST" action="frontcontroller/cadastrarimovel">
+		<label>Num Bloco: </label> <input type="number" name="id_bloco"
+			id="id"> <label>Num Apto: </label> <input type="number"
+			name="id_apto" id="id"> <input type="submit"
+			value="Cadastrar Imovel">
+	</form>
+	<br>
+	<br>
+	<h2>Editar Imovel</h2>
+	<form method="POST" action="frontcontroller/editarimovel">
+		<label>Num Bloco: </label> <input type="number" name="id_bloco"
+			id="id"> <label>Num Apto: </label> <input type="number"
+			name="id_apto" id="id"> <label>ID Imovel: </label> <input
+			type="number" name="id_imovel" id="id_imovel"> <input
+			type="submit" value="Editar Imovel">
+	</form>
+	<br>
+	<br>
+	<h2>Excluir Imovel</h2>
+	<form method="POST" action="frontcontroller/excluirimovel">
+		<label>ID Imovel: </label> <input type="number" name="id_imovel"
+			id="id_imovel"> <input type="submit" value="Excluir Imovel">
+	</form>
+	<br>
+	<br>
+	<h2>Excluir Proprietario Imovel</h2>
+	<form method="POST" action="frontcontroller/excluirproprietarioimovel">
+		<label>ID Imovel: </label> <input type="number" name="id_imovel"
+			id="id"> <input type="submit"
+			value="Excluir Proprietario Imovel">
+	</form>
+	<br>
+	<br>
+	<h2>Excluir Condomino Imovel</h2>
+	<form method="POST" action="frontcontroller/excluircondominoimovel">
+		<label>ID Imovel: </label> <input type="number" name="id_imovel"
+			id="id"> <input type="submit"
+			value="Excluir Condomino Imovel">
+	</form>
+	<br>
+	<br>
+	<h2>Inserir Proprietario Imovel</h2>
+	<form method="POST"
+		action="frontcontroller/inserireditarproprietarioimovel">
+		<label>ID Proprietario: </label> <input type="number"
+			name="id_proprietario" id="id"> <label>ID Imovel: </label> <input
+			type="number" name="id_imovel" id="id_imovel"> <input
+			type="submit" value="Inserir Proprietario Imovel">
+	</form>
+	<br>
+	<br>
+	<h2>Inserir Condomino Imovel</h2>
+	<form method="POST"
+		action="frontcontroller/inserireditarcondominoimovel">
+		<label>ID Condomino: </label> <input type="number" name="id_condomino"
+			id="id"> <label>ID Imovel: </label> <input type="number"
+			name="id_imovel" id="id_imovel"> <input type="submit"
+			value="Inserir Condomino Imovel">
+	</form>
+	<br>
+	<br>
+	<h2>Editar Proprietario Imovel</h2>
+	<form method="POST"
+		action="frontcontroller/inserireditarproprietarioimovel">
+		<label>ID Proprietario: </label> <input type="number"
+			name="id_proprietario" id="id"> <label>ID Imovel: </label> <input
+			type="number" name="id_imovel" id="id_imovel"> <input
+			type="submit" value="Editar Proprietario Imovel">
+	</form>
+	<br>
+	<br>
+	<h2>Editar Condomino Imovel</h2>
+	<form method="POST"
+		action="frontcontroller/inserireditarcondominoimovel">
+		<label>ID Condomino: </label> <input type="number" name="id_condomino"
+			id="id"> <label>ID Imovel: </label> <input type="number"
+			name="id_imovel" id="id_imovel"> <input type="submit"
+			value="Editar Condomino Imovel">
+	</form>
+	<br>
+	<br>
+	<h2>Listar Imoveis</h2>
+	<form method="POST" action="frontcontroller/listarimovel">
+		<input type="submit" value="Listar Imoveis">
+	</form>
+	<br>
+	<br>
+	<h1>Metodos Contas a Receber - Sindico</h1>
+	<br>
+	<br>
+	<h2>Cadastrar Conta a Receber</h2>
+	<form method="POST" action="frontcontroller/cadastrarcontaareceber">
+		<label>Data Vencimento: </label> <input type="date"
+			name="dataVencimento"> <label>Valor: </label> <input
+			type="number" name="valor"> <input type="submit"
+			value="Cadastrar Conta a Receber">
+	</form>
+	<br>
+	<br>
+	<h2>Editar Conta a Receber</h2>
+	<form method="POST" action="frontcontroller/editarcontaareceber">
+		<label>Data Vencimento Nova: </label> <input type="date"
+			name="dataVencimentoNova"> <label>Valor Novo: </label> <input
+			type="number" name="valorNovo"> <label>Data
+			Vencimento Antiga: </label> <input type="date" name="dataVencimentoAntiga">
+		<input type="submit" value="Editar Conta a Receber">
+	</form>
+	<br>
+	<br>
+	<h2>Editar Data Vencimento Conta a Receber Para TODOS</h2>
+	<form method="POST"
+		action="frontcontroller/editardatavencimentocontatodos">
+		<label>Data Vencimento Nova: </label> <input type="date"
+			name="dataVencimentoNova"> <label>Data Vencimento
+			Antiga: </label> <input type="date" name="dataVencimentoAntiga"> <input
+			type="submit"
+			value="Editar Data Vencimento Conta a Receber Para TODOS">
+	</form>
+	<br>
+	<br>
+	<h2>Editar Data Vencimento Conta a Receber Para UM</h2>
+	<form method="POST"
+		action="frontcontroller/editardatavencimentocontaum">
+		<label>Data Vencimento Nova: </label> <input type="date"
+			name="dataVencimentoNova"> <label>Data Vencimento
+			Antiga: </label> <input type="date" name="dataVencimentoAntiga"> <label>Num
+			Bloco: </label> <input type="number" name="id_bloco" id="id"> <label>Num
+			Apto: </label> <input type="number" name="id_apto" id="id"> <input
+			type="submit" value="Editar Data Vencimento Conta a Receber Para UM">
+	</form>
+	<br>
+	<br>
+	<h2>Excluir Conta a Receber pelo ID</h2>
+	<form method="POST" action="frontcontroller/excluircontaareceberpeloid">
+		<label>ID Conta a Receber: </label> <input type="number" name="id"
+			id="id"> <input type="submit"
+			value="Excluir Conta a Receber pelo ID">
+	</form>
+	<br>
+	<br>
+	<h2>Excluir Conta a Receber pela Data Vencimento</h2>
+	<form method="POST"
+		action="frontcontroller/excluircontaareceberpeladatavencimento">
+		<label>Data Vencimento: </label> <input type="date"
+			name="dataVencimento"> <input type="submit"
+			value="Excluir Conta a Receber pela Data Vencimento">
+	</form>
+	<br>
+	<br>
+	<h2>Atualizar DataPagamento, ValorPago, DataReferencia Conta a
+		Receber Para TODOS</h2>
+	<form method="POST"
+		action="frontcontroller/atualizardatapagamentovalorpagodatareferenciacontaareceberparatodos">
+		<label>Data Pagamento</label> <input type="date" name="dataPagamento">
+		<label>Valor Pago</label> <input type="number" name="valorPago"
+			id="valorPago"> <label>Data Vencimento: </label> <input
+			type="date" name="dataVencimento"> <input type="submit"
+			value="Atualizar DataPagamento, ValorPago, DataReferencia Conta a Receber Para TODOS">
+	</form>
+	<br>
+	<br>
+	<h2>Atualizar DataPagamento, ValorPago, DataReferencia Conta a
+		Receber Para UM</h2>
+	<form method="POST"
+		action="frontcontroller/atualizardatapagamentovalorpagodatareferenciacontaareceberparaum">
+		<label>Data Pagamento</label> <input type="date" name="dataPagamento">
+		<label>Valor Pago</label> <input type="number" name="valorPago"
+			id="valorPago"> <label>Data Vencimento: </label> <input
+			type="date" name="dataVencimento"> <label>Num Bloco:
+		</label> <input type="number" name="id_bloco" id="id"> <label>Num
+			Apto: </label> <input type="number" name="id_apto" id="id"> <input
+			type="submit"
+			value="Atualizar DataPagamento, ValorPago, DataReferencia Conta a Receber Para TODOS">
+	</form>
+	<br>
+	<br>
+	<h2>Listar Conta a Receber</h2>
+	<form method="POST" action="frontcontroller/listarcontaareceber">
+		<input type="submit" value="Listar Conta a Receber">
+	</form>
+	<br>
+	<br>
+	<h1>Metodos Pessoa - Sindico</h1>
+	<br>
+	<br>
+	<h2>Listar Pessoa</h2>
+	<form method="POST" action="frontcontroller/listarpessoa">
+		<input type="submit" value="Listar Pessoa">
+	</form>
+	<br>
+	<br>
+	<h2>Excluir Pessoa</h2>
+	<form method="POST" action="frontcontroller/excluirpessoa">
+		<label>ID Pessoa: </label> <input type="number" name="id_pessoa"
+			id="id_pessoa"> <input type="submit" value="Excluir Pessoa">
+	</form>
+	<br>
+	<br>
+	<h2>Alterar senha</h2>
+	<form method="POST" action="frontcontroller/alterarsenhapessoa">
+		<label>ID Pessoa: </label> <input type="number" name="id_pessoa"
+			id="id_pessoa"> <label>Nova Senha: </label> <input
+			type="text" name="novasenha" id="novasenha"> <input
+			type="submit" value="Editar Senha da Pessoa">
+	</form>
+	<br>
+	<br>
+	<h2>Editar Pessoa</h2>
+	<form method="POST" action="frontcontroller/editarpessoa">
+		<label>ID Pessoa: </label> <input type="number" name="id_pessoa"
+			id="id_pessoa"> <br> <label>Nome: </label> <input
+			type="text" name="nome"> <br> <label>CPF: </label> <input
+			type="text" name="cpf"> <br> <label>RG: </label> <input
+			type="text" name="rg"> <br> <label>Data
+			Nascimento: </label> <input type="date" name="data_nasc"> <br> <label>Email:
+		</label> <input type="text" name="email"> <br> <label>Telefone:
+		</label> <input type="text" name="telefone"> <br> <label>Telefone
+			Celular: </label> <input type="text" name="telefone_celular"> <br>
+		<label>Nome Usuário: </label> <input type="text" name="nome_usuario">
+		<br> <label>Senha: </label> <input type="text" name="senha">
+		<br> <label>Proprietário: </label> <input type="checkbox"
+			name="proprietario" value="1"> <br> <label>Sindico:
+		</label> <input type="checkbox" name="sindico" value="2"> <br> <label>Status
+			Perfil: </label> <input type="checkbox" name="statusperfil" value="1">
+		<br> <input type="submit" value="Editar Pessoa">
+	</form>
+	<br>
+	<br>
+	<h2>Criar Pessoa</h2>
+	<form method="POST" action="frontcontroller/criarpessoa">
+		<label>Nome: </label> <input type="text" name="nome"> <br>
+		<label>CPF: </label> <input type="text" name="cpf"> <br>
+		<label>RG: </label> <input type="text" name="rg"> <br> <label>Data
+			Nascimento: </label> <input type="date" name="data_nasc"> <br> <label>Email:
+		</label> <input type="text" name="email"> <br> <label>Telefone:
+		</label> <input type="text" name="telefone"> <br> <label>Telefone
+			Celular: </label> <input type="text" name="telefone_celular"> <br>
+		<label>Nome Usuário: </label> <input type="text" name="nome_usuario">
+		<br> <label>Senha: </label> <input type="text" name="senha">
+		<br> <label>Proprietário: </label> <input type="checkbox"
+			name="proprietario" value="1"> <br> <label>Sindico:
+		</label> <input type="checkbox" name="sindico" value="2"> <br> <label>Status
+			Perfil: </label> <input type="checkbox" name="statusperfil" value="1">
+		<br> <input type="submit" value="Criar Pessoa">
+	</form>
+	<br>
+	<br>
+	<h1>Condomino - Dados</h1>
+	<br>
+	<br>
+	<h2>Editar dados</h2>
+	<form method="POST" action="frontcontroller/editardadoscondomino">
+		<label>ID Pessoa: </label> <input type="number" name="id_pessoa"
+			id="id_pessoa"> <br> <label>Nome: </label> <input
+			type="text" name="nome"> <br> <label>CPF: </label> <input
+			type="text" name="cpf"> <br> <label>RG: </label> <input
+			type="text" name="rg"> <br> <label>Data
+			Nascimento: </label> <input type="date" name="data_nasc"> <br> <label>Email:
+		</label> <input type="text" name="email"> <br> <label>Telefone:
+		</label> <input type="text" name="telefone"> <br> <label>Telefone
+			Celular: </label> <input type="text" name="telefone_celular"> <br>
+		<label>Nome Usuário: </label> <input type="text" name="nome_usuario">
+		<br> <label>Senha: </label> <input type="text" name="senha">
+		<br> <input type="submit" value="Editar Pessoa">
+	</form>
+	<br>
+	<br>
+	<h2>Listar dados</h2>
+	<form method="POST" action="frontcontroller/listardadoscondomino">
+		<label>ID Pessoa: </label> <input type="number" name="id_pessoa"
+			id="id_pessoa"> <br> <input type="submit"
+			value="Listar Pessoa">
+	</form>
+	<br>
+	<br>
+	<h1>Efetuar Login</h1>
+	<br>
+	<br>
+	<form method="POST" action="frontcontroller/loginpessoa">
+		<label>Nome/Email: </label> <input type="text" name="usuarioemail"
+			id="usuarioemail"> <label>Senha: </label> <input
+			type="password" name="senha" id="senha"> <br> <input
+			type="submit" value="Login">
+	</form>
+	<br>
+	<br>
+	<h4 onclick="window.print();">Print</h4>
+</body>
+
+</html>
