@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="condo.entities.sindico.RelatorioContaRecebidaArrecadacaoPeriodo" 
+    project="CondoWeb" file="/CondoWeb/src/condo/entities/sindico/RelatorioContaRecebidaArrecadacaoPeriodo.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="252" y="-15"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="condo.tarefa.sindico.informativo.EditarInformativo" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/informativo/EditarInformativo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5465" y="908"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="condo.tarefa.sindico.pessoa.AlterarSenhaPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/pessoa/AlterarSenhaPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5415" y="799"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="condo.entities.sindico.RelatorioImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/sindico/RelatorioImovel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="142" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="condo.tarefa.sindico.pessoa.CriarPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/pessoa/CriarPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5111" y="905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="condo.entities.Imovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/Imovel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2447" y="-80"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="condo.tarefa.Tarefa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/Tarefa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5945" y="453"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" 
+    name="condo.tarefa.sindico.contaareceber.AtualizarDataPagamentoValorPagoDataReferenciaContaAReceberParaTodos" 
+    project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/contaareceber/AtualizarDataPagamentoValorPagoDataReferenciaContaAReceberParaTodos.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5011" y="789"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="condo.dao.SindicoDAO" project="CondoWeb" 
+    file="/CondoWeb/src/condo/dao/SindicoDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1451" y="188"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="condo.tarefa.sindico.imovel.InserirEditarProprietarioImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/imovel/InserirEditarProprietarioImovel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4872" y="566"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="condo.tarefa.sindico.contaareceber.EditarDataVencimentoContaTodos" 
+    project="CondoWeb" file="/CondoWeb/src/condo/tarefa/sindico/contaareceber/EditarDataVencimentoContaTodos.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4960" y="675"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="condo.entities.RelatorioInformativo" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/RelatorioInformativo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="377" y="268"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="condo.tarefa.sindico.relatorio.EmitirRelatorioInformativo" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/relatorio/EmitirRelatorioInformativo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5088" y="296"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="condo.tarefa.sindico.imovel.EditarImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/imovel/EditarImovel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4866" y="454"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="condo.tarefa.sindico.contaareceber.ExcluirContaAReceberPeloID" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/contaareceber/ExcluirContaAReceberPeloID.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4841" y="179"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="condo.tarefa.sindico.contaareceber.EditarDataVencimentoContaUm" 
+    project="CondoWeb" file="/CondoWeb/src/condo/tarefa/sindico/contaareceber/EditarDataVencimentoContaUm.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4774" y="345"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" 
+    name="condo.tarefa.sindico.contaareceber.AtualizarDataPagamentoValorPagoDataReferenciaContaAReceberParaUM" 
+    project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/contaareceber/AtualizarDataPagamentoValorPagoDataReferenciaContaAReceberParaUM.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5365" y="74"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="condo.entities.Informativo" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/Informativo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2719" y="-54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="condo.entities.sindico.InformativoCompleto" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/sindico/InformativoCompleto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2767" y="183"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="condo.entities.sindico.RelatorioContaAReceber" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/sindico/RelatorioContaAReceber.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="654" y="-41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="condo.tarefa.sindico.relatorio.EmitirRelatorioPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/relatorio/EmitirRelatorioPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5291" y="-47"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="condo.entities.ContaAReceber" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/ContaAReceber.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2949" y="-79"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="condo.tarefa.sindico.imovel.InserirEditarCondominoImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/imovel/InserirEditarCondominoImovel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5176" y="184"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="condo.tarefa.sindico.imovel.CadastrarImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/imovel/CadastrarImovel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4982" y="42"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="condo.tarefa.sindico.pessoa.ExcluirPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/pessoa/ExcluirPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6928" y="8"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="condo.tarefa.sindico.informativo.CadastrarInformativo" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/informativo/CadastrarInformativo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5845" y="-154"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="condo.entities.sindico.PessoaCom" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/sindico/PessoaCom.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4543" y="-49"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="condo.tarefa.sindico.pessoa.ListarPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/pessoa/ListarPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5431" y="-158"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="condo.tarefa.FabricaDeTarefa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/FabricaDeTarefa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6013" y="55"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="condo.tarefa.condomino.ListarDadosPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/condomino/ListarDadosPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6597" y="86"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="condo.tarefa.LoginPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/LoginPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6605" y="-50"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="condo.entities.sindico.ContaAReceberCompleto" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/sindico/ContaAReceberCompleto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3132" y="260"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="condo.tarefa.sindico.informativo.CancelarEnvioInformativoParaUm" 
+    project="CondoWeb" file="/CondoWeb/src/condo/tarefa/sindico/informativo/CancelarEnvioInformativoParaUm.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6482" y="-166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="condo.entities.Perfil" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/Perfil.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3598" y="-68"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="condo.entities.Pessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/Pessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3985" y="169"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="condo.tarefa.sindico.imovel.ExcluirProprietarioImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/imovel/ExcluirProprietarioImovel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6909" y="118"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="condo.tarefa.sindico.contaareceber.ExcluirContaAReceberPelaDataVencimento" 
+    project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/contaareceber/ExcluirContaAReceberPelaDataVencimento.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6394" y="788"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="condo.tarefa.sindico.relatorio.EmitirRelatorioContaAReceber" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/relatorio/EmitirRelatorioContaAReceber.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7020" y="449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="condo.controller.FrontController" project="CondoWeb" 
+    file="/CondoWeb/src/condo/controller/FrontController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1908" y="-127"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="condo.tarefa.sindico.relatorio.EmitirRelatorioContaRecebidaArrecadacaoPeriodo" 
+    project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/relatorio/EmitirRelatorioContaRecebidaArrecadacaoPeriodo.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6284" y="62"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="condo.entities.Permissao" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/Permissao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3618" y="199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="condo.dao.CondominoDAO" project="CondoWeb" 
+    file="/CondoWeb/src/condo/dao/CondominoDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1913" y="22"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="condo.entities.sindico.PessoaSimp" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/sindico/PessoaSimp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4378" y="207"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="condo.entities.sindico.RelatorioPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/sindico/RelatorioPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="432" y="536"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="condo.tarefa.NULLTarefa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/NULLTarefa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5753" y="74"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="condo.dao.FabricaDeConexoes" project="CondoWeb" 
+    file="/CondoWeb/src/condo/dao/FabricaDeConexoes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2154" y="-125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="condo.tarefa.sindico.imovel.ExcluirImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/imovel/ExcluirImovel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6055" y="789"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="condo.tarefa.condomino.EditarDadosCondomino" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/condomino/EditarDadosCondomino.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5811" y="906"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="condo.tarefa.condomino.EmitirRelatorioContaPagaEAVencer" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/condomino/EmitirRelatorioContaPagaEAVencer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5737" y="795"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="condo.tarefa.sindico.contaareceber.CadastrarContaAReceber" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/contaareceber/CadastrarContaAReceber.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6925" y="-108"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="condo.entities.sindico.ImovelCompleto" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/sindico/ImovelCompleto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2421" y="198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="condo.tarefa.sindico.contaareceber.ListarContaAReceber" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/contaareceber/ListarContaAReceber.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7009" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="condo.entities.condomino.RelatorioConta" project="CondoWeb" 
+    file="/CondoWeb/src/condo/entities/condomino/RelatorioConta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="614" y="224"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="condo.tarefa.sindico.contaareceber.EditarContaAReceber" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/contaareceber/EditarContaAReceber.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5609" y="-43"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="condo.tarefa.sindico.pessoa.EditarPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/pessoa/EditarPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6278" y="-51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="condo.tarefa.sindico.imovel.ExcluirCondominoImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/imovel/ExcluirCondominoImovel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6999" y="337"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="condo.tarefa.sindico.informativo.EnviarInformativoParaTodos" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/informativo/EnviarInformativoParaTodos.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7005" y="556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="condo.tarefa.sindico.informativo.ListarInformativo" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/informativo/ListarInformativo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7037" y="782"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="condo.tarefa.condomino.EmitirRelatorioInformativoCondomino" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/condomino/EmitirRelatorioInformativoCondomino.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6162" y="-157"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="condo.tarefa.sindico.informativo.CancelarEnvioInformativoParaTodos" 
+    project="CondoWeb" file="/CondoWeb/src/condo/tarefa/sindico/informativo/CancelarEnvioInformativoParaTodos.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6913" y="662"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="condo.tarefa.sindico.informativo.ExcluirInformativo" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/informativo/ExcluirInformativo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5936" y="-51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="condo.tarefa.sindico.relatorio.EmitirRelatorioImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/relatorio/EmitirRelatorioImovel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6721" y="776"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="condo.tarefa.sindico.imovel.ListarImovel" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/imovel/ListarImovel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6179" y="899"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="condo.tarefa.LogoutPessoa" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/LogoutPessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6873" y="892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="condo.tarefa.sindico.informativo.EnviarInformativoParaUm" project="CondoWeb" 
+    file="/CondoWeb/src/condo/tarefa/sindico/informativo/EnviarInformativoParaUm.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6527" y="907"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="66">    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="68">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="69">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="70">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="71">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="72">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="73">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="74">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="75">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="76">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="77">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="78">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="79">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="80" name="perfil">        
+        <position height="0" width="0" x="-1277" y="-1086"/>      
+      </attribute>      
+      <multiplicity id="81" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1277" y="-1086"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="82">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="83">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="84">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="85">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <realization id="87">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="88">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="89">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="90" name="tarefas">        
+        <position height="0" width="0" x="-6871" y="-165"/>      
+      </attribute>      
+      <multiplicity id="91" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-6871" y="-165"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="92">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="93">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="94">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="95">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="96">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="97">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="98">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="99">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="100">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="101">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="102" name="permissao">        
+        <position height="0" width="0" x="-1270" y="-491"/>      
+      </attribute>      
+      <multiplicity id="103" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1270" y="-491"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="104">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="105">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="106">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="107">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="108">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="109">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="110">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="111">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="112">    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="113">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="114">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="115">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="116">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <generalization id="117">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="35"/>  
+  </generalization>  
+  <realization id="118">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="119">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="120">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
